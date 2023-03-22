@@ -1,0 +1,26 @@
+section {
+
+
+	flex-wrap: wrap;
+}
+@media (min-width: 576px) {
+	
+	section div {
+		flex-basis: 100%;
+	}
+}
+
+
+@media (min-width: 768px) {
+	
+	section div {
+		flex-basis: 50%;
+	}
+}
+
+@media (min-width: 1025px) {
+	
+	section div {
+		flex-basis: 25%;
+	}
+}
